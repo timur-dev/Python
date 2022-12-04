@@ -1,0 +1,19 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+end_lifetime = 90
+
+left_to_live = int(end_lifetime) - int(age)
+
+days_in_year = 365
+weeks_in_year = 52 
+month_in_year = 12 
+
+x = int(left_to_live) * days_in_year
+y = int(left_to_live) * weeks_in_year
+z= int(left_to_live) * month_in_year
+
+print(f"You have {x} days, {y} weeks, and {z} months left")
