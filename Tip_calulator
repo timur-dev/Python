@@ -13,6 +13,9 @@ personas = input("How many people to split ?")
 tip_percent = (int(tip_percent) / 100) * float(total)
 total_w_tip = float(total) + (tip_percent)
 
-sum_w_t = round(float(total_w_tip) / int(personas) ,2 )
+#print(tip_percent)
+sum_w_t = round(float(total_w_tip) / int(personas) ,2)
+final_bill = "{:.2f}".format(sum_w_t)      # doing final
 
-print(f"Each person should pay : {sum_w_t}")
+#print(total_w_tip)
+print(f"Each person should pay : {final_bill}")
